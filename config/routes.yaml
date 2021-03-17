@@ -1,3 +1,23 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+getAllCategory:
+  path: /api/getAllCategory
+  controller: App\Controller\APIController::getAllCategory
+  methods: GET
+
+addProduct:
+  path: /api/addProduct
+  controller: App\Controller\APIController::addProduct
+  methods: POST
+
+updateProduct:
+  path: /api/updateProduct/{id}
+  controller: App\Controller\APIController::updateProduct
+  methods: PUT
+
+search:
+  path: /api/search
+  controller: App\Controller\APIController::search
+  methods: POST
