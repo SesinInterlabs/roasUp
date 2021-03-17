@@ -46,6 +46,6 @@
 
 ### Стек ###
 
-PHP 7.4.1
-Symfony 5.2
-MySQL 8.0
+PHP 7.4.1  
+Symfony 5.2  
+MySQL 8.0  
