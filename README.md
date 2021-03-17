@@ -4,47 +4,49 @@
 
 1. api/getAllCategory
 
->Типы запросов:  
->>GET  
+Типы запросов:  
+>GET  
 
->Передоваемые данные:  
->>Не требуются  
+Передоваемые данные:  
+>Не требуются  
 
 2. api/addProduct
 
->Типы запросов:  
->>POST  
+Типы запросов:  
+>POST  
 
->Передоваемые данные:  
->>name (string)  
->>category (string)  
->>price (float)  
+Передоваемые данные:  
+>name (string)  
+>category (string)  
+>price (float)  
 
 3. api/updateProduct/{id}
 
->Тип запроса:  
->>PUT  
+Тип запроса:  
+>PUT  
 
->Передоваемые данные:  
->>name (string)  
->>category (string)  
->>price (float)  
+Передоваемые данные:  
+>name (string)  
+>category (string)  
+>price (float)  
 
 4. api/search
 
->Тип запроса:  
->>POST  
+Тип запроса:  
+>POST  
 
->Передоваемые данные:  
->>category (string)  
->>page (int)  
->>perPage (int)  
+Передоваемые данные:  
+>category (string)  
+>page (int)  
+>perPage (int)  
 
 ### Установка ###
 
 1. Скапировать репозиторий на сервер
 
 2. В CLI набрать composer i и дождаться установки
+
+3. Подключить в .env.local нужный драйвер БД  
 
 Готово.
 
