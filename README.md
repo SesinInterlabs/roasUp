@@ -2,40 +2,40 @@
 
 ### Доступные методы ###
 
-1. api/getAllCategory
+1. /api/getAllCategory
 
 Типы запросов:  
 >GET  
 
-Передоваемые данные:  
+Передаваемые данные:  
 >Не требуются  
 
-2. api/addProduct
+2. /api/addProduct
 
 Типы запросов:  
 >POST  
 
-Передоваемые данные:  
+Передаваемые данные:  
 >name (string)  
 >category (string)  
 >price (float)  
 
-3. api/updateProduct/{id}
+3. /api/updateProduct/{id}
 
 Тип запроса:  
 >PUT  
 
-Передоваемые данные:  
+Передаваемые данные:  
 >name (string)  
 >category (string)  
 >price (float)  
 
-4. api/search
+4. /api/search
 
 Тип запроса:  
 >POST  
 
-Передоваемые данные:  
+Передаваемые данные:  
 >category (array)  
 >page (int)  
 >perPage (int)  
